@@ -10,3 +10,9 @@ data.case1 = hmac.verify(input, signature, secret); // === true
 data.case2 = hmac.verify(input, signature, 'trickery!'); // === false
 
     return data;
+};
+
+
+
+
+
