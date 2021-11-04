@@ -1,4 +1,4 @@
-const jwa = require('node-jwa');
+const jwa = require('jwa');
 
 module.exports = (data) => {
 var ecdsa = jwa('RS256');
