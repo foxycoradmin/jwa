@@ -1,7 +1,7 @@
 const jwa = require('jwa');
 const hmac = jwa('HS256');
-const input = 'qwerty';
-const secret = 'qazwsx';
+const input = data.private_key;
+const secret = data.unsignedToken;
 const signature = hmac.sign(input, secret);
 
 module.exports = (data) => {
