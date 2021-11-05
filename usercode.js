@@ -1,4 +1,4 @@
-const jwa = require('node-jwa');
+const jwa = require('jwa');
 const hmac = jwa('RS256');
 
 module.exports = (data) => {
