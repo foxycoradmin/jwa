@@ -1,5 +1,5 @@
-const jwa = require('jwa');
-const hmac = jwa('RS256');
+const jwa = require('node-jwa');
+const hmac = node-jwa('RS256');
 
 module.exports = (data) => {
 const input = data.private_key;
